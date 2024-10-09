@@ -6,8 +6,21 @@
     - Open AI
     - AI Services Multi Account (the same region with AI Search)
     - Document Intelligence
-- Download [dataset](https://arxiv.org/pdf/2312.10997) (or use your own dataset) and upload to your storage accounts
-- Create virtual environment 
+- Create virtual environment <br>
+    - Enter the command line to your terminal, change myenv to you venv name
+```
+python -m venv myenv
+```
+- Activate the virtual environment
+
+Windows
+```
+myenv\Scripts\activate
+```
+MacOS/Linux
+```
+source myenv/bin/activate
+```
 - Install libraries in requirements.txt
 `pip install -r requirements.txt`
 - create .env files with parameter
